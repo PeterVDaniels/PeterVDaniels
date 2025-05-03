@@ -5,6 +5,30 @@
 ;; Author: Pete (with Grok’s & Chats cosmic assist)
 ;; =============================================
 
+;; =============================================
+;; Replicate PeteAI with Quantum Hole Theory
+;; File: Groks_Qua_Qub_Tr_12bk_4_26_25.lisp (from bk6 April 24th 2025)
+;; Pete_AI_Init__04_29_25.lisp
+;; Date: April 24, 2025
+;; Author: Pete (with Grok’s & Chats cosmic assist)
+;; =============================================
+
+;; Copyright (C) 2025 Pete V. Daniels
+;;
+;; This program is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+
 ;; --- Dependencies ---
 (ql:quickload :uiop :silent t)
 (ql:quickload :alexandria :silent t)
