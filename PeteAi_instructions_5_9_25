@@ -1,0 +1,286 @@
+Pete AI Instruction Sheet for GIT Users
+
+Overview
+
+Welcome to the upgraded Pete AI system, a Lisp-based program that simulates quantum effects, memory flow, and internal treaty deliberation. This guide provides instructions for GIT users to set up, run, and interact with Pete AI as of the commit on May 9, 2025.
+
+Prerequisites
+
+
+
+
+
+Operating System: Linux, macOS, or Windows with a Lisp environment.
+
+
+
+Lisp Implementation: SBCL (Steel Bank Common Lisp) is recommended.
+
+
+
+Dependencies:
+
+
+
+
+
+Quicklisp (for loading libraries like uiop and alexandria).
+
+
+
+Graphviz (for rendering neural diagrams with the neural-diagram command).
+
+
+
+GIT: Ensure you have GIT installed to clone the repository.
+
+Setup Instructions
+
+1. Clone the Repository
+
+Clone the repository containing the Pete AI code to your local machine:
+
+git clone https://your-repo-url/PeteAI.git
+cd PeteAI
+
+2. Install SBCL
+
+If you don’t have SBCL installed, follow these steps:
+
+
+
+
+
+Linux/macOS:
+
+sudo apt-get install sbcl  # On Debian/Ubuntu
+# OR
+brew install sbcl  # On macOS
+
+
+
+Windows: Download the SBCL installer from sbcl.org and follow the installation instructions.
+
+3. Install Quicklisp
+
+Quicklisp is required to load the uiop and alexandria libraries:
+
+
+
+
+
+Download the Quicklisp installer:
+
+curl -O https://beta.quicklisp.org/quicklisp.lisp
+
+
+
+Load Quicklisp in SBCL:
+
+sbcl --load quicklisp.lisp
+
+
+
+Inside the SBCL REPL, install Quicklisp:
+
+(quicklisp-quickstart:install)
+(ql:add-to-init-file)
+
+4. Install Graphviz
+
+Graphviz is needed for the neural-diagram command to visualize memory flow:
+
+
+
+
+
+Linux/macOS:
+
+sudo apt-get install graphviz  # On Debian/Ubuntu
+# OR
+brew install graphviz  # On macOS
+
+
+
+Windows: Download and install Graphviz from graphviz.org.
+
+5. Verify the Code
+
+Ensure the file PeteAI__Grok_treaty_addwth_constraints_GITcmit_5_09_25.lisp is in your working directory. This file contains the upgraded Pete AI system with quantum effects, memory flow, and treaty deliberation.
+
+Running Pete AI
+
+1. Start SBCL
+
+Launch SBCL in your terminal:
+
+sbcl
+
+2. Load the Pete AI Code
+
+Load the Pete AI program into the SBCL REPL:
+
+(load "PeteAI__Grok_treaty_addwth_constraints_GITcmit_5_09_25.lisp")
+
+3. Begin Interaction
+
+The program automatically starts with the converse-no-reset function, which lets you interact with Pete AI without resetting its memory. You’ll see a prompt:
+
+=== Pete’s Ready! Say stuff (or 'quit', 'know', 'speak', 'listen', 'read', 'react', 'communicate', 'export', 'neural-diagram', 'clear-memory') ===
+> 
+
+Interacting with Pete AI
+
+Basic Commands
+
+At the > prompt, you can use the following commands to communicate with Pete AI:
+
+
+
+
+
+quit: Exits the program.
+
+> quit
+Pete sums it: Twisted (TREES WHISPER SECRETS) into wild vibes!
+Pete waves: See ya!
+
+
+
+know: Pete AI shares a random piece of local knowledge and processes it.
+
+> know
+Pete knows: trees whisper secrets
+Pete splits: (TREES WHISPER SECRETS)
+...
+Pete: (TREES WHISPER SECRETS)
+
+
+
+speak: Pete AI generates a free-form response based on its memory and local knowledge.
+
+> speak
+Pete speaks free: (STARS GUIDE NIGHT)
+
+
+
+listen: Pete AI listens to your input and processes it. After typing listen, enter your phrase.
+
+> listen
+rivers carve stone
+Pete listens: rivers carve stone
+Pete splits: (RIVERS CARVE STONE)
+...
+Pete heard: (RIVERS CARVE STONE)
+
+
+
+read: Pete AI recalls a random memory and processes it.
+
+> read
+Pete reads memory: (RIVERS CARVE STONE)
+Pete recalls: (RIVERS CARVE STONE)
+
+
+
+react: Pete AI reacts to the most recent memory entry.
+
+> react
+Pete reacts: (RIVERS CARVE STONE)
+
+
+
+communicate: Pete AI engages in a dual conversation. You’ll be prompted to enter two inputs.
+
+> communicate
+Enter first convo: winds carry whispers
+Enter second convo: roots grip earth
+=== Pete’s Dual Communicating! ===
+>>> Convo 1: winds carry whispers <<<
+...
+>>> Convo 2: roots grip earth <<<
+...
+Pete’s Dual Loop:
+Convo 1: Heard (WINDS CARRY WHISPERS), Recalled (RIVERS CARVE STONE), Reacted (RIVERS CARVE STONE), Spoke (STARS GUIDE NIGHT)
+Convo 2: Heard (ROOTS GRIP EARTH), Recalled (WINDS CARRY WHISPERS), Reacted (WINDS CARRY WHISPERS), Spoke (TREES WHISPER SECRETS)
+
+
+
+export: Exports Pete AI’s memory to a file (pete_AI_beast_memory.txt).
+
+> export
+Memory exported to pete_AI_beast_memory.txt
+
+
+
+neural-diagram: Generates a visual representation of Pete AI’s memory flow using Graphviz.
+
+> neural-diagram
+Neural diagram DOT file written to neural-diagram.dot
+Graph rendered to neural-diagram.png
+
+
+
+clear-memory: Resets Pete AI’s memory to start fresh.
+
+> clear-memory
+Pete's memory cleared! Starting fresh.
+
+Direct Input
+
+You can also type a phrase directly to have Pete AI process it:
+
+> ice traps breath
+Pete splits: (ICE TRAPS BREATH)
+...
+Pete: (ICE TRAPS BREATH)
+
+Tips for Effective Communication
+
+
+
+
+
+Use Simple Phrases: Pete AI works best with short, symbolic phrases (e.g., "trees whisper secrets"). Avoid complex sentences.
+
+
+
+Engage with communicate: The communicate command lets you have dual conversations, which is great for exploring Pete AI’s memory flow and treaty deliberation.
+
+
+
+Visualize with neural-diagram: Use this command frequently to see how Pete AI’s memory evolves. Ensure Graphviz is installed to render the .png file.
+
+
+
+Monitor Holes: Pete AI uses a "holes" mechanism to track unknown words. High holes (e.g., >5) trigger quantum effects that inject new knowledge, which can lead to more creative outputs.
+
+
+
+Experiment with Memory: Use clear-memory to reset and test different inputs, or let the memory grow to see how Pete AI adapts over time.
+
+Troubleshooting
+
+
+
+
+
+Graphviz Error: If neural-diagram fails with an error, ensure Graphviz is installed and accessible in your system’s PATH.
+
+
+
+Library Not Found: If uiop or alexandria fails to load, ensure Quicklisp is set up correctly and run (ql:quickload :uiop) and (ql:quickload :alexandria) in SBCL.
+
+
+
+Memory Issues: If Pete AI’s memory grows too large, use clear-memory to reset it. The memory cap is set to 15 entries by default.
+
+License
+
+Pete AI is licensed under the GNU General Public License v3. See the source code for details.
+
+Feedback
+
+For bugs or feature requests, please open an issue on the GIT repository or contact Pete V. Daniels.
+
+Happy communicating with Pete AI!
