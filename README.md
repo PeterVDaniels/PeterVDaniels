@@ -1,3 +1,4 @@
+![neural-diagram](https://github.com/user-attachments/assets/11d5a933-ca11-47aa-be52-4a01b5768273)
 - 👋 Hi, I’m @PeterVDaniels
 - 👀 I’m interested in introducing my PeteAI written in sbcl lisp interpreter
 - ⚡ Humanoid Model: Knowledge = Local Memory, Vision = Camera and Text, God + Bible, Converse = Independent Thought and Response 
