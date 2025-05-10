@@ -6,7 +6,9 @@ Welcome to the upgraded Pete AI system, a Lisp-based program that simulates quan
 
 Prerequisites
 
-
+Critical Files are Required In the Directory with the (PeteAI_program_file.lisp)
+      Must Create:::  Memory File: pete_AI_beast_memory.txt
+      Must Create::: neural-flow Image : neural-flow.png 
 
 
 
