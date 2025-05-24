@@ -1,3 +1,5 @@
+![neural-diagram](https://github.com/user-attachments/assets/ae4ade81-b888-49de-94ee-802df4a66871)
+
 ![neural-diagram](https://github.com/user-attachments/assets/11d5a933-ca11-47aa-be52-4a01b5768273)
 - 👋 Hi, I’m @PeterVDaniels
 - 👀 I’m interested in introducing my PeteAI written in sbcl lisp interpreter
